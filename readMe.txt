@@ -4,6 +4,12 @@ The present framework composed of several pretrained SRGAN models achieves scale
 
 The sample codes used for clustering the low-resolution global flow field into subdomains, as well as for pretraining the MLP models to estimate the Taylor microscales embedded in the low-resolution inputs, are also provided.
 
+Datasets:
+All datasets used in the sample codes are available online. 
+The pretraining data of homogenous and isotropic turbulence (HIT), as well as the testing data of turbulent boundary layer (TBL) and turbulent channel flow, 
+are available in the Johns Hopkins Turbulence Databases (JHTDB) (http://turbulence.pha.jhu.edu/). 
+The datasets of the climatological wind and ocean surface current data can be found at the public website (http://doi.org/10.22033/ESGF/CMIP6.3749/).
+
 Requirements:
   -Python 3.x
   -keras
