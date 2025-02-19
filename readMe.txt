@@ -3,3 +3,11 @@ Sample codes for pretraining of super-resolution generative adversarial networks
 The present framework composed of several pretrained SRGAN models achieves scale-oriented global field reconstructions from coarse flow fields in a zero-shot manner.
 
 The sample codes used for clustering the low-resolution global flow field into subdomains, as well as for pretraining the MLP models to estimate the Taylor microscales embedded in the low-resolution inputs, are also provided.
+
+Requirements:
+  -Python 3.x
+  -keras
+  -tensorflow 1.15
+  -sklearn
+  -numpy
+  -pandas
