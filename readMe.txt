@@ -1,8 +1,10 @@
-Sample codes for pretraining of super-resolution generative adversarial networks (SRGANs) based on snapshot samples from homogeneous and isotropic turbulence (HIT).
+Sample codes for pretraining of super-resolution generative adversarial networks (SRGANs) based on snapshot samples from homogeneous and isotropic turbulence (HIT),
+containing 1. main.py, 2. turSRGANs.py, 3. turNetwork.py and 4. utils.
 
 The present framework composed of several pretrained SRGAN models achieves scale-oriented global field reconstructions from coarse flow fields in a zero-shot manner.
 
-The sample codes used for clustering the low-resolution global flow field into subdomains, as well as for pretraining the MLP models to estimate the Taylor microscales embedded in the low-resolution inputs, are also provided.
+The sample codes used for clustering the low-resolution global flow field into subdomains (5. Clustering.ipynb), 
+as well as for pretraining the MLP models to estimate the Taylor microscales embedded in the low-resolution inputs (6. MLP.ipynb), are also provided.
 
 Datasets:
 All datasets used in the sample codes are available online. 
