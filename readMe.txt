@@ -1,5 +1,5 @@
 Article:
-Haokai Wu, Kai Fukami, Yaoran Chen, Mohammed Nabil1, Dai Zhou, Hu Huang and Yong Cao, "Length scale-oriented deep learning for cross-domain generalization of turbulence super-resolution," Submmited to Nature Machine Intelligence.
+Haokai Wu, Kai Fukami, Yaoran Chen, Mohammed Nabil1, Dai Zhou, Hu Huang and Yong Cao, "Length scale-oriented deep learning for cross-domain generalization of turbulence super-resolution," Submitted to Nature Machine Intelligence.
 
 Information:
 The present framework composed of several pretrained super-resolution generative adversarial networks (SRGANs) achieves scale-oriented global field reconstructions from coarse flow fields in a zero-shot manner.
