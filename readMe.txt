@@ -1,7 +1,10 @@
-Article:
-Haokai Wu, Kai Fukami, Yaoran Chen, Mohammed Nabil1, Dai Zhou, Hu Huang and Yong Cao, "Length scale-oriented deep learning for cross-domain generalization of turbulence super-resolution," Submitted to Nature Machine Intelligence.
+# TurSRGAN
+A sample code for scale-oriented SRGAN for turbulence super-resolution by Wu et al, under review.
 
-Information:
+# Reference
+Haokai Wu, Kai Fukami, Yaoran Chen, Mohammed Nabil1, Dai Zhou, Hu Huang, and Yong Cao, "Length scale-oriented deep learning for cross-domain generalization of turbulence super-resolution," under review.
+
+# Information
 The present framework composed of several pretrained super-resolution generative adversarial networks (SRGANs) achieves scale-oriented global field reconstructions from coarse flow fields in a zero-shot manner.
 
 Sample codes for pretraining of super-resolution generative adversarial networks (SRGANs) based on snapshot samples from homogeneous and isotropic turbulence (HIT) are presented,
@@ -11,15 +14,18 @@ The sample codes used for dividing the global low-resolution flow field into sub
 
 Authors provide no guarantees for these codes. Use as-is and for academic research use only; no commercial use allowed without permission. The codes are written for educational clarity and not for speed.
 
-Datasets:
+# Datasets
+
 All datasets used in the sample codes are available online. 
+
 The pretraining data of homogenous and isotropic turbulence (HIT), as well as the testing data of turbulent boundary layer (TBL) and turbulent channel flow, are available in the Johns Hopkins Turbulence Databases (JHTDB) (http://turbulence.pha.jhu.edu/). 
+
 The datasets of the climatological wind and ocean surface current data can be found at the public website (http://doi.org/10.22033/ESGF/CMIP6.3749/).
 
-Requirements:
-  -Python 3.x
-  -keras
-  -tensorflow 1.15
-  -sklearn
-  -numpy
-  -pandas
+# Requirements
+* Python 3.x  
+* keras  
+* tensorflow 1.15
+* sklearn
+* numpy
+* pandas
